@@ -1,3 +1,4 @@
+#This code is not working as expected.Need to check this properly.
 resource "aws_db_instance" "master_db" {
   provider = aws.primary
   allocated_storage       = 10
